@@ -1,0 +1,5 @@
+{
+  "name": "AI Differensial Yordamchi",
+  "description": "Differensial tenglamalarni OCR va matn orqali yechish uchun professional AI yordamchi.",
+  "requestFramePermissions": ["camera"]
+}
