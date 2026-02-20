@@ -69,46 +69,6 @@ Interfeys ikki qismga bo‘lingan (50/50 responsive grid).
 
 ---
 
-## 🏗️ Texnologiyalar
-
-### Frontend
-
-* React / Next.js
-* TailwindCSS
-* MathJax yoki KaTeX
-* Axios
-
-### Backend
-
-* Node.js / Express yoki FastAPI
-* OpenAI API yoki local LLM
-* SymPy (symbolic hisoblash)
-* Tesseract OCR
-
-### AI Qismi
-
-* Mathematical reasoning prompt engineering
-* Structured output parsing
-* Step-by-step solution formatting
-
----
-
-## ⚙️ Arxitektura
-
-```
-Frontend
-   ↓
-Backend API
-   ↓
-OCR Processor
-   ↓
-AI Model + Symbolic Engine (SymPy)
-   ↓
-Formatted Response
-```
-
----
-
 ## 📷 OCR Ishlash Jarayoni
 
 1. Rasm yuklanadi
