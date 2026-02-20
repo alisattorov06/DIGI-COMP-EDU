@@ -1,20 +1,178 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 AI Differensial Hisoblash Yechuvchi Tizim
 
-# Run and deploy your AI Studio app
+Sun’iy intellekt asosida **differensial tenglamalar va matematik analiz masalalarini avtomatik yechuvchi web-dastur**.
 
-This contains everything you need to run your app locally.
+Tizim foydalanuvchidan:
 
-View your app in AI Studio: https://ai.studio/apps/b3ae7032-f6be-4316-b02c-af0977b0f63c
+* 📷 Rasm (OCR orqali)
+* ⌨️ Matn ko‘rinishida
 
-## Run Locally
+misolni qabul qiladi, uni tahlil qiladi va:
 
-**Prerequisites:**  Node.js
+* Bosqichma-bosqich yechim
+* Matematik izoh
+* Nazariy tarif
+* Yakuniy javob
 
+ni professional formatda taqdim etadi.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Asosiy imkoniyatlar
+
+### 1️⃣ OCR orqali misol qabul qilish
+
+* Rasm yuklanadi
+* OCR texnologiyasi yordamida matematik ifoda ajratib olinadi
+* Ifoda AI modelga uzatiladi
+
+### 2️⃣ Matn orqali kiritish
+
+* LaTeX yoki oddiy matematik format qo‘llab-quvvatlanadi
+* Avtomatik sintaksis tekshiruvi
+
+### 3️⃣ AI Yechim Mexanizmi
+
+* Differensial tenglama turi aniqlanadi
+* Mos metod tanlanadi:
+
+  * O‘zgaruvchilarni ajratish
+  * Birinchi tartibli chiziqli tenglama
+  * Bernulli tenglamasi
+  * To‘liq differensial tenglama
+  * Yuqori tartibli tenglamalar
+* Bosqichma-bosqich yechim generatsiya qilinadi
+* Nazariy tushuntirish beriladi
+
+---
+
+## 🖥️ Interfeys Dizayni
+
+Ilova professional split-layout asosida qurilgan.
+
+### 🔹 Chap panel (Input Zone)
+
+* Katta matn maydoni
+* Rasm yuklash tugmasi
+* Misolni yuborish tugmasi
+* LaTeX preview
+
+### 🔹 O‘ng panel (Solution Workspace)
+
+* Masala ishlanish muhiti
+* Bosqichma-bosqich yechim
+* Matematik formulalar (KaTeX/MathJax)
+* Nazariy tarif bloki
+* Yakuniy javob ajratilgan holda
+
+Interfeys ikki qismga bo‘lingan (50/50 responsive grid).
+
+---
+
+## 🏗️ Texnologiyalar
+
+### Frontend
+
+* React / Next.js
+* TailwindCSS
+* MathJax yoki KaTeX
+* Axios
+
+### Backend
+
+* Node.js / Express yoki FastAPI
+* OpenAI API yoki local LLM
+* SymPy (symbolic hisoblash)
+* Tesseract OCR
+
+### AI Qismi
+
+* Mathematical reasoning prompt engineering
+* Structured output parsing
+* Step-by-step solution formatting
+
+---
+
+## ⚙️ Arxitektura
+
+```
+Frontend
+   ↓
+Backend API
+   ↓
+OCR Processor
+   ↓
+AI Model + Symbolic Engine (SymPy)
+   ↓
+Formatted Response
+```
+
+---
+
+## 📷 OCR Ishlash Jarayoni
+
+1. Rasm yuklanadi
+2. Backend Tesseract orqali matnga aylantiradi
+3. Sintaksis normalizatsiya qilinadi
+4. AI modelga uzatiladi
+5. Natija formatlanadi
+
+---
+
+## 📌 Namuna Ishlash Jarayoni
+
+**Input:**
+
+```
+y' + 2y = e^x
+```
+
+**Output:**
+
+* Tenglama turi aniqlanadi
+* Integrallovchi ko‘paytuvchi topiladi
+* Umumiy yechim chiqariladi
+* Nazariy izoh beriladi
+
+---
+
+## 📊 Qo‘shimcha Imkoniyatlar
+
+* PDF export
+* Ye­chimni saqlash
+* Tarix (history)
+* Kod rejimi (faqat matematik ifoda)
+* Dark/Light mode
+
+---
+
+## 🔐 Xavfsizlik
+
+* Input sanitizatsiya
+* Rate limiting
+* API key himoyasi
+* Server-side validation
+
+---
+
+## 🧪 Sinab Ko‘rish
+
+Loyihani quyidagi havola orqali sinab ko‘rishingiz mumkin:
+
+👉 **Demo link:**
+
+```
+https://digi-comp-edu.vercel.app/
+```
+---
+
+## 🎯 Maqsad
+
+Talabalar va muhandislar uchun:
+
+* Differensial hisoblashni avtomatlashtirish
+* Tezkor va tushunarli yechim olish
+* Nazariy bilimni mustahkamlash
+* O‘quv jarayonini samarali qilish
+
+---
